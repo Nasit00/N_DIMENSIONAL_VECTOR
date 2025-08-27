@@ -50,34 +50,6 @@ cross_product(other) → cross product (only for 3D)
 
 clone() → create a copy of the vector
 
-📝 Example Usage
-from n_dimensional_Vector import n_dimensional_Vector
-
-# Create vectors
-v1 = n_dimensional_Vector(1, 2, 3)
-v2 = n_dimensional_Vector(4, 5, 6)
-
-# String representation
-print(v1)  
-# Output: Vector [1, 2, 3] and size is 3
-
-# Vector addition
-print(v1 + v2)  
-# Output: Vector [5, 7, 9] and size is 3
-
-# Dot product
-print(v1 @ v2)  
-# Output: 32
-
-# Cross product
-print(v1.cross_product(v2))  
-# Output: Vector [-3, 6, -3] and size is 3
-
-# Clone vector
-v3 = v1.clone()
-print(v3)  
-# Output: Vector [1, 2, 3] and size is 3
-
 🚀 Future Improvements
 
 Add scalar multiplication/division
